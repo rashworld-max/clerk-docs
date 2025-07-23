@@ -3398,7 +3398,7 @@
     "status": "400",
     "usage": {
       "fapi": false,
-      "bapi": false
+      "bapi": true
     },
     "file": "instance_keys.go"
   },
