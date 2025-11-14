@@ -875,10 +875,6 @@
                                 "href": "/docs/guides/development/integrations/databases/convex"
                               },
                               {
-                                "title": "Fauna",
-                                "href": "/docs/guides/development/integrations/databases/fauna"
-                              },
-                              {
                                 "title": "Firebase",
                                 "href": "/docs/guides/development/integrations/databases/firebase"
                               },
@@ -1393,10 +1389,6 @@
                               {
                                 "title": "URL based session syncing",
                                 "href": "/docs/guides/development/upgrading/upgrade-guides/url-based-session-syncing"
-                              },
-                              {
-                                "title": "Progressive Sign Up",
-                                "href": "/docs/guides/development/upgrading/upgrade-guides/progressive-sign-up"
                               },
                               {
                                 "title": "API Version 2025-11-10",
