@@ -9,6 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Install package manager
+        run: |
+          corepack enable
+          corepack prepare --activate      
       - run: pnpm i
       - run: pnpm run lint:formatting
       - run: pnpm run lint:check-frontmatter
@@ -25,6 +29,10 @@ jobs:
           git fetch origin ${{ github.base_ref }}
           git checkout ${{ github.base_ref }}
           git checkout ${{ github.sha }}
+      - name: Install package manager
+        run: |
+          corepack enable
+          corepack prepare --activate
       - run: pnpm i
       - id: check
         run: |
